@@ -5,4 +5,3 @@ string_echo = kings_string * times_to_echo
 puts kings_string
 puts string_reflection
 puts string_echo
-sdfasdfasfasf
