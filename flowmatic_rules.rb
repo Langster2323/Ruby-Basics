@@ -19,3 +19,4 @@ elsif flow_rate < 50
 else
   puts "The flow_rate is #{flow_rate} (Thank goodness)."
 end
+#flow_rate conditional statement
