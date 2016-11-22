@@ -2,6 +2,7 @@ flowmatic_on = true
 water_available = true
 if flowmatic_on && water_available
   flow_rate = 50
+  #flow_rate is a constant 
 elsif !flowmatic_on
   puts "Flowmatic is off!"
 else
