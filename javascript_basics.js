@@ -6,3 +6,4 @@ alert(b);
 
 age = prompt("Please enter your age:");
 console.log(age);
+// A brief example of a users input
