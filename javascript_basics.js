@@ -23,3 +23,10 @@ a = a * 2;
 true;
 false;
 //booleans
+
+var a = "42";
+var b = Number(a);
+
+console.log(a);
+console.log(b);
+//Converting between types
