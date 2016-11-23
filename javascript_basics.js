@@ -12,3 +12,14 @@ var a = 20;
 a = a + 1;
 a = a * 2;
 // A brief example of a variable being declared
+
+"I am a string";
+"I am also a string";
+//strings
+
+42;
+//number
+
+true;
+false;
+//booleans
