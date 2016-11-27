@@ -32,4 +32,7 @@ console.log(b);
 
 var c = "76";
 var d = Number(d);
+
+console.log(c);
+console.log(d);
 //Converting between types
