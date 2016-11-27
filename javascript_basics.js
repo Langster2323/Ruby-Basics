@@ -29,4 +29,7 @@ var b = Number(a);
 
 console.log(a);
 console.log(b);
+
+var c = "76";
+var d = Number(d);
 //Converting between types
