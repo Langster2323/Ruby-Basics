@@ -15,10 +15,10 @@ a = a * 2;
 
 "I am a string";
 "I am also a string";
-//strings
+// Showing examples of strings
 
 42;
-//number
+// Showing a example about literal expressions
 
 true;
 false;
