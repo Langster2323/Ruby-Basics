@@ -2,7 +2,7 @@ a = 21;
 b = a * 2;
 console.log(b);
 alert(b);
-// A brief example of a output
+// A brief example of a output, arthmetic, assignment, literal and variable expressions.
 
 age = prompt("Please enter your age:");
 console.log(age);
@@ -22,7 +22,7 @@ a = a * 2;
 
 true;
 false;
-//booleans
+//Showing examples of booleans
 
 var a = "42";
 var b = Number(a);
