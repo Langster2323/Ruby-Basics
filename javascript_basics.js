@@ -1,6 +1,6 @@
 a = 21;
 b = a * /* arthmetic expressions */2; /* assignment expression */
-console.log(b); /*42*/
+/* viewed on the developer tools console */console.log(b); /*42*/
 alert(b);
 /*
  A brief example of a output, arthmetic, assignment,
