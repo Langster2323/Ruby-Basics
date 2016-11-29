@@ -51,3 +51,15 @@ console.log(amount); //199.98
 amount = "$" + String(amount);
 
 console.log(amount);
+
+var TAX_RATE /* TAX_RATE is a constant I'm using,
+as an example in a assignment expression */= 0.08;
+
+var amount = 99.99;
+
+amount = amount * 2;
+
+amount = amount + (amount * TAX_RATE);
+
+console.log(amount); // 215.9784
+console.log(amount.toFixed(2)); // "215.98"
