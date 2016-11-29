@@ -53,7 +53,7 @@ var amount = 99.99;
   amount = "$" + String(amount);
 
   console.log(amount);
-}
+} // I can wrap more than one statement if need be
 /* const is a new way to declare a constant,
 instead of var*/
 const TAX_RATE /* TAX_RATE is a constant,
@@ -71,3 +71,12 @@ console.log(amount.toFixed(2)); // "215.98"
 /* toFixed lets me specify how many decmal places
 I'd like the number rounded to,
 and produces the string as necessary. */
+
+var amount = 99.99;
+// is amount big enough?
+if (amount > 10) {      // <-- black attached to 'if'
+  amount = amount * 2;
+  console.log(amount);  /*statement passes only if,
+  if statement is true*/
+} /* A block statement doesn't need
+a semicolon to conclude it */
