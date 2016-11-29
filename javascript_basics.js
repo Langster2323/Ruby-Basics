@@ -46,13 +46,14 @@ var amount = 99.99;
 {
   amount = amount * 2;
   console.log(amount); //199.98
-}
+
 
 //convert amount to a string, and
 // add "$" on the beginning
-amount = "$" + String(amount);
+  amount = "$" + String(amount);
 
-console.log(amount);
+  console.log(amount);
+}
 /* const is a new way to declare a constant,
 instead of var*/
 const TAX_RATE /* TAX_RATE is a constant,
