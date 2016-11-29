@@ -51,8 +51,10 @@ console.log(amount); //199.98
 amount = "$" + String(amount);
 
 console.log(amount);
-
-var TAX_RATE /* TAX_RATE is a constant I'm using,
+/* const is a new way to declare a constant,
+instead of var*/
+const TAX_RATE /* TAX_RATE is a constant,
+but only by convention. I'm using,
 as an example in a assignment expression */= 0.08; // 8% sales tax
 
 var amount = 99.99;
@@ -63,3 +65,6 @@ amount = amount + (amount * TAX_RATE);
 
 console.log(amount); // 215.9784
 console.log(amount.toFixed(2)); // "215.98"
+/* toFixed lets me specify how many decmal places
+I'd like the number rounded to,
+and produces the string as necessary. */
