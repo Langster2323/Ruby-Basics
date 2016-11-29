@@ -53,7 +53,7 @@ amount = "$" + String(amount);
 console.log(amount);
 
 var TAX_RATE /* TAX_RATE is a constant I'm using,
-as an example in a assignment expression */= 0.08;
+as an example in a assignment expression */= 0.08; // 8% sales tax
 
 var amount = 99.99;
 
